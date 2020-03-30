@@ -4,5 +4,5 @@ import './index.css';
 
 ReactDOM.render(
   <h1>Setup working!</h1>,
-  document.getElementById('root')
-)
+  document.getElementById('root'),
+);
