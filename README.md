@@ -43,6 +43,6 @@ Fork this repo and submit a PR for review and potential merge to main branch. Fe
 
 ## License
 
-[MIT](LICENSE).
+This project is [MIT](LICENSE) licensed.
 
 
