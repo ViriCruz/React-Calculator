@@ -14,8 +14,13 @@ class ButtonPanel extends React.Component {
     return this.names;
   }
 
-  renderButton(name) {
-    this.button = <Button value={name} />;
+
+  renderButton = (value, index, group) => {
+    const style = { backgroundColor: '#e0e0e0', flex: '1' };
+    const { length } = group;
+    const wide = value === '0';
+    this.button = index < length - 1 ? <Button value={value} color={style} wide={wide} />
+      : <Button value={value} color={{ flex: '1' }} wide={wide} />;
     return this.button;
   }
 
@@ -23,19 +28,19 @@ class ButtonPanel extends React.Component {
     return (
       <div className="container">
         <div className="row groups">
-          { this.groups['1'].map(name => this.renderButton(name)) }
+          { this.groups['1'].map(this.renderButton) }
         </div>
         <div className="row groups">
-          { this.groups['2'].map(name => this.renderButton(name)) }
+          { this.groups['2'].map(this.renderButton) }
         </div>
         <div className="row groups">
-          { this.groups['3'].map(name => this.renderButton(name)) }
+          { this.groups['3'].map(this.renderButton) }
         </div>
         <div className="row groups">
-          { this.groups['4'].map(name => this.renderButton(name)) }
+          { this.groups['4'].map(this.renderButton) }
         </div>
         <div className="row groups">
-          { this.groups['5'].map(name => this.renderButton(name)) }
+          { this.groups['5'].map(this.renderButton) }
         </div>
       </div>
     );
