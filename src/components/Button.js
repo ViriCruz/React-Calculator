@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Button = ({ value, color, wide }) => {
   const css = color;
-  if (wide) css.flex = '2';
+  if (wide) css.flex = '0 0 50%';
   return (
     <div className="button" style={css}>
       { value }
