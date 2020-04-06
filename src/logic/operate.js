@@ -18,7 +18,7 @@ const operate = (numberOne, numberTwo, operation) => {
       result = x.times(y);
       break;
     case operations.division:
-      result = x.div(y);
+      result = y !== 0 ? x.div(y) : 'infinity';
       break;
     case operations.percentage:
       result = x.div(100).times(y);
