@@ -22,8 +22,8 @@ class ButtonPanel extends React.Component {
     const wide = value === '0';
     const { onClick } = this.props;
     this.button = index < length - 1
-      ? <Button value={value} color={style} wide={wide} onClick={onClick} />
-      : <Button value={value} color={{ flex: '1' }} wide={wide} onClick={onClick} />;
+      ? <Button value={value} color={style} wide={wide} onClick={onClick} key={value} />
+      : <Button value={value} color={{ flex: '1' }} wide={wide} onClick={onClick} key={value} />;
     return this.button;
   }
 
