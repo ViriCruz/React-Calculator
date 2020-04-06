@@ -8,7 +8,11 @@ const isOperationValid = ({ total, next, operation }) => total && next && operat
 
 const isAnOperation = (operations, name) => operations.includes(name);
 
-const setOperation = (btnName, total) => ({ next: total, total: null, operation: btnName });
+const setOperation = (btnName, total, next) => {
+  if (next) return { operation: btnName };
+
+  return { next: total, total: null, operation: btnName };
+};
 
 const calculate = (calculator, btnName) => {
   let { total, next, operation } = calculator;
@@ -42,7 +46,7 @@ const calculate = (calculator, btnName) => {
       break;
     default:
       if (isAnOperation(operations.operation, btnName)) {
-        calcObj = setOperation(btnName, total);
+        calcObj = setOperation(btnName, total, next);
       } else {
         total = total ? total + btnName : btnName;
         calcObj = { total };
