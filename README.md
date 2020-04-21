@@ -11,9 +11,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - React ^16.13.1
 - CSS3
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
+## Prerequisites
 * Node.js installed
 You will need Node.js up to v8
 
@@ -21,14 +19,19 @@ You will need Node.js up to v8
 Windows/ Mac
 
 
-### Install
+## Install
 Clone project and run
+
 `npm install`
 
 After the installation of all dependencies run the following script
 
 `npm start` or `yarn start`
 
+## Running the tests
+This project doesn't count with automated tests.
+
+## Usage instructions
 
 ## How to contribute and partipate
 Fork this repo and submit a PR for review and potential merge to main branch. Feel free to leave feedback :smile:
@@ -38,8 +41,11 @@ Fork this repo and submit a PR for review and potential merge to main branch. Fe
 
 👨‍💻 **Gabriela Cruz**
 
-- Github: [@viricruz](https://github.com/viricruz)
-- LinkedIn: [@viricruz](https://www.linkedin.com/in/viricruz/)
+- Github [@viricruz](https://github.com/ViriCruz/)
+
+- email me at viridiana.cruz.olivera@gmail.com
+
+- Linkedin [@viricruz](https://www.linkedin.com/in/viricruz/)
 
 ## License
 
