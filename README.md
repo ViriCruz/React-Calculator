@@ -1,6 +1,5 @@
 # Calculator with React
-This is a basic calculator made with React.
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A basic calculator made with React, it contains the 4 basic operations. Also, it comes with modulus, AC, and +/- actions.
 
 ## Live Version
 [Heroku App](https://calculator-with-react.herokuapp.com/)
@@ -13,28 +12,31 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Prerequisites
 * Node.js installed
-You will need Node.js up to v8
+You will need Node.js up to v8.
 
 * System dependencies
 Windows/ Mac
 
 
 ## Install
-Clone project and run
+Clone project and run:
 
 `npm install`
 
-After the installation of all dependencies run the following script
+After the installation of all dependencies run the following script:
 
 `npm start` or `yarn start`
 
-## Running the tests
-This project doesn't count with automated tests.
-
 ## Usage instructions
+Only click the button you want on the button panel, and it will display the result in the top of the button panel.
 
-## How to contribute and partipate
-Fork this repo and submit a PR for review and potential merge to main branch. Feel free to leave feedback :smile:
+## Potential future features
+
+- Add unit tests to Button, ButtonPanel, Display, and App components.
+- Add a list of operations made before as a history.
+
+## How to contribute and participate
+Fork this repo and submit a PR for review and potential merge to the main branch. Feel free to leave feedback. :smile:
 
 
 ## Authors
@@ -43,9 +45,9 @@ Fork this repo and submit a PR for review and potential merge to main branch. Fe
 
 - Github [@viricruz](https://github.com/ViriCruz/)
 
-- email me at viridiana.cruz.olivera@gmail.com
+- Email me at viridiana.cruz.olivera@gmail.com
 
-- Linkedin [@viricruz](https://www.linkedin.com/in/viricruz/)
+- LinkedIn [@viricruz](https://www.linkedin.com/in/viricruz/)
 
 ## License
 
