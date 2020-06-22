@@ -1,6 +1,10 @@
 # Calculator with React
 A basic calculator made with React, it contains the 4 basic operations. Also, it comes with modulus, AC, and +/- actions.
 
+<p> 
+<img src="https://i.imgur.com/aNzwcH2.png" alt="react-calculator" />
+</p>
+
 ## Live Version
 [Heroku App](https://calculator-with-react.herokuapp.com/)
 
